@@ -5,7 +5,7 @@
     productFactory.$inject = ['$http'];
 
     function productFactory($http) {
-        var URL = 'http://localhost:3000/api/products';
+        var URL = 'https://mwa-node-api-leofmoura.c9users.io/api/products';
         return {
             get: get,
             getById: getById
