@@ -1,0 +1,6 @@
+<h1>Carrinho</h1>
+<ion-list>
+    <ion-item ng-repeat="product in products" href="#/products/details/{{ product._id }}">
+        <h2>{{product.title}}</h2>
+    </ion-item>
+</ion-list>
