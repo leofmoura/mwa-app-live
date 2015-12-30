@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     angular.module('mwa').factory('productFactory', productFactory);
 
@@ -10,9 +10,11 @@
             get: get,
             getById: getById
         };
+
         function get() {
             return $http.get(URL);
         }
+
         function getById(id) {
             return $http.get(URL + '/' + id);
         }

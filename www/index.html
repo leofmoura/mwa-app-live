@@ -14,8 +14,7 @@
         <ion-side-menu-content>
           <ion-header-bar class="bar-positive" ng-controller="HeadbarCtrl">
             <div class="buttons">
-              <button class="button icon ion-navicon button-clear"
-                name="button" ng-click="toggleSideBar();"></button>
+              <button class="button icon ion-navicon button-clear" name="button" ng-click="toggleSideBar();"></button>
             </div>
             <h1 class="title">Modern Web Store</h1>
           </ion-header-bar>
@@ -28,9 +27,9 @@
         </ion-side-menu-content>
         <ion-side-menu side="left" ng-controller="SideBarCtrl">
           <ion-list>
-            <ion-item ng-click="navigateTo('home')">Home</ion-item>
-            <ion-item ng-click="navigateTo('products')">Produtos</ion-item>
-            <ion-item ng-click="navigateTo('cart')">Carrinho</ion-item>
+            <ion-item ng-click="navigateTo(&apos;home&apos;)">Home</ion-item>
+            <ion-item ng-click="navigateTo(&apos;products&apos;)">Produtos</ion-item>
+            <ion-item ng-click="navigateTo(&apos;cart&apos;)">Carrinho</ion-item>
           </ion-list>
         </ion-side-menu>
       </ion-side-menus>
